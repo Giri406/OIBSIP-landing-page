@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title style="color: green;">My Landing Page</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Landing Page</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="intro">
+			<h2>Welcome to My Landing Page</h2>
+			<p style="color:red;">A sample landing page created by DESHPANDE GIRIPRASAD.</p>
+
+			<a href="#features" class="cta-button">Learn More</a>
+		</section>
+		<section id="features">
+			<h2>Features</h2>
+			<div class="feature">
+				<img src="img/feature1.png" alt="Feature 1">
+				<h3>Feature 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in enim eget leo interdum bibendum.</p>
+			</div>
+			<div class="feature">
+				<img src="img/feature2.png" alt="Feature 2">
+				<h3>Feature 2</h3>
+				<p>Nullam quis tellus in diam eleifend lacinia. Etiam bibendum elementum sem, ac tincidunt odio convallis at.</p>
+			</div>
+			<div class="feature">
+				<img src="img/feature3.png" alt="Feature 3">
+				<h3>Feature 3</h3>
+				<p>Curabitur lobortis consectetur enim, sit amet facilisis est vestibulum vitae. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+			</div>
+		</section>
+		<section id="cta">
+			<h2>Get Started Today</h2>
+			<p>Sign up now to get access to all of our features!</p>
+			<form action="submit.php" method="POST">
+				<input type="text" placeholder="Name" name="name" required>
+				<input type="email" placeholder="Email" name="email" required>
+				<button type="submit" class="cta-button">Sign Up</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Landing Page. All rights reserved.</p>
+	</footer>
+</body>
+</html>
